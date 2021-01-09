@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_container {
+    padding: 3 rem;
+    height: 6rem;
+    box-shadow: 0px 5px 5px rgb(12, 82, 61);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_top{
+    list-style: none;
+}
+.nav_top li{
+    display: inline-block;
+    margin-right: 25px;    
+}
+
+nav li{
+    text-decoration: none;
+    outline: none;
+}
+.body_wrapper{
+    display: flex;
+    height: calc(100vh - 2rem);
+    padding: 25px;
+    color: red;
+}
+
+.nav_report {
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+
+.bt_search {
+    background: rgb(10, 69, 231);
+    height: 30px;
+    width: 80px;
+    color: white;
+    border:0.5px solid gray;
+}
+
+.bt_search:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.bt_new_entry{
+    background: green;
+    height: 30px;
+    width: 130px;
+    color: white;
+    border:0.5px solid gray;
+}
+
+.bt_new_entry:hover{
+   cursor: pointer;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:2px solid transparent;
+    box-shadow: 3px 3px 3px rgb(12, 82, 61);
+}
+
+.content_holder {
+    flex: 1;
+    border-left: 1px solid gray;
+    
+}
+
+.quick_links{
+    width: 200px;
+}
+
+.links {  
+    list-style: none;
+      
+}
+
+.links li{
+    padding-top: 20px;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: red;  
+}
+.search_input{
+    width: 450px;
+    height: 30px;
+    text-align: center;
+}
+
+.input_date{
+    height: 30px;
+}
+
+.data_table{
+    width: 100%;
+    color: black;
+    border-collapse: collapse;
+}
+
+.table_container {
+    border: 1px solid rgb(8, 87, 14);
+    height: 750px;
+}
+
+tr,
+td,
+th {
+    border:2px solid rgb(97, 88, 88);
+    width: 25px;
+    height: 40px;
+}
+
+.regform{
+    background-color: rgb(14, 172, 48);
+    color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 50px;  
+}
+
+.name{
+    width: 200px;
+    height: 30px;
+    color: gray;
+}
+
+.main_form{
+    width: 1300px;
+    background-color: rgb(197, 194, 194);
+    margin: auto;
+    color: black;
+    text-align: center;
+}
+
+.save{
+    background-color: rgb(238, 56, 0);
+    color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;    
+}
+
+.d_save{
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgb(40, 160, 144);
+    font-size: medium;
+}
+
+.u_save{
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgb(19, 52, 236);
+    font-size: medium;
+    color: white;
+}
+
+.f_save{
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: rgb(252, 252, 250);
+    font-size: medium;
+}

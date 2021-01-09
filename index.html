@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Visitor's Log</title>
+</head>
+<body>
+    <div class="nav_container">
+        <nav>
+            <div>
+                <img src="images/logo.jpg" alt="Hospital Logo" width="70px" style="margin-left: 30px; margin: 10px;" >    
+            </div>
+            <div>
+                <h1> ELECTRONIC VISITOR'S LOG BOOK</h1>
+            </div>
+            <div>
+                <ul class="nav_top">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="log.html"><li>REPORT</li></a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section class="container">
+        <div class="body_wrapper">
+            <div class="quick_links">
+                <ul class="links">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="log.html"><li>REPORTS</li></a>
+                    <a href="new_entry.html"><li>ADD NEW LOG</li></a>   
+                </ul>
+            </div>
+        
+            <div class="content_holder">
+                <div class="nav_report">
+                        <div>
+                            <input type="text" placeholder="Search Visitor's Details here" class="search_input">
+                        </div>
+                        <div>  
+                            <h3>From Date & Time</h3>
+                        </div>
+                        <div>
+                            <input type="datetime-local" class="input_date">
+                        </div>
+                        <div>
+                            <h3>To Date & Time</h3>
+                        </div>
+                        <div>
+                            <input type="datetime-local" class="input_date">
+                        </div>
+                        <div>
+                            <input type="submit" value="SEARCH" class="bt_search">
+                        </div>
+                        <div>
+                            <a href="new_entry.html"><button class="bt_new_entry">ADD NEW LOG</button></a>
+                        </div>   
+                </div>
+                <hr />
+                <div class="table_container">
+                    <table class="data_table">
+                        <tr>
+                            <th>SN</th>
+                            <th>DATE</th>
+                            <th>VISITOR'S NAME</th>
+                            <th>TELEPHONE</th>
+                            <th>TIME IN</th>
+                            <th>TIME OUT</th>
+                            <th>OFFICE OF VISIT</th>
+                            <th>NATURE OF VISIT</th>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

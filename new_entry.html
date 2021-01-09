@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+	<title>Visitor's log</title>
+</head>
+<body>
+	 <div class="nav_container">
+        <nav>
+            <div>
+                <img src="images/logo.jpg" alt="Hospital Logo" width="70px" style="margin-left: 30px; margin: 10px;" >       
+            </div>
+            <div>
+                <h1>ELECTRONIC VISITOR'S LOG BOOK</h1>
+            </div>
+            <div>
+                <ul class="nav_top">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="log.html"><li>REPORT</li></a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section class="container">
+        <div class="body_wrapper">
+            <div class="quick_links">
+                <ul class="links">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="log.html"><li>REPORTS</li></a>
+                    <a href="new_entry.html"><li>ADD NEW LOG</li></a>   
+                </ul>
+            </div>
+        
+            <div class="content_holder">
+                <div class="nav_report">
+                        <div class="main_form">
+                            <div class="regform"> Visitor's Registration Form</div><br><br>
+                            <form>
+                                <div class>
+                                    <h2>Date & Time of Visit</h2><br>
+                                    <input type="datetime-local" class="input_date"><br><br>                                
+                                    <h2>Name of Visitor</h2><br>
+                                    <input class="name" type="text" name="first_name" value="First Name"><br><br>
+                                    <input class="name" type="text" name="last_name" value="Last Name"><br><br>
+                                    <h2>Telephone Number</h2>
+                                    <input type="number" class="name"><br><br>
+                                    <h2>Office of Visit</h2>
+                                    <input type="text" class="name"><br><br>
+                                    <h2>Nature of Visit</h2><br>
+                                    <input type="checkbox" id="official" name="official">
+                                    <label for="official">Official</label>
+                                    <input type="checkbox" id="personal" name="personal">
+                                    <label for="personal">Personal</label><br><br>
+                                    <h2>Date & Time of Checked-Out</h2><br>
+                                    <input type="datetime-local" class="input_date"><br><br>
+                                </div>
+                            </form>
+                            <br><br>
+                            <div class="save">
+                                <input type="submit" class="d_save" value="Save as Draft">
+                                <input type="submit" class="u_save" value="Update">
+                                <input type="submit" class="f_save" value="Submit">
+                            </div>
+                        </div> 
+                </div> 
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
